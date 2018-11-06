@@ -1,6 +1,8 @@
 import random
+import os
 
 import turingarena as ta
+
 
 all_passed = True
 for _ in range(10):
