@@ -24,4 +24,4 @@ for _ in range(10):
         print(f" {e}")
         all_passed = False
 
-ta.evaluation.data(dict(goals=dict(correct=all_passed)))
+ta.goals["correct"] = all_passed
